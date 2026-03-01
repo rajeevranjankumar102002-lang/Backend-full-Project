@@ -1,0 +1,17 @@
+{
+  "name": "banckend_project",
+  "version": "1.0.0",
+  "description": "a banckend at fully banckend project and fronted project",
+  "keywords": [
+    "javascript",
+    "backend",
+    "fronted"
+  ],
+  "license": "ISC",
+  "author": "rajeev ranja kumar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
