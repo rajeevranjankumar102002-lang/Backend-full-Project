@@ -2,6 +2,7 @@
   "name": "banckend_project",
   "version": "1.0.0",
   "description": "a banckend at fully banckend project and fronted project",
+  "type": "commonjs",
   "keywords": [
     "javascript",
     "backend",
@@ -9,9 +10,15 @@
   ],
   "license": "ISC",
   "author": "rajeev ranja kumar",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "prettier": "^3.8.1"
   }
 }
