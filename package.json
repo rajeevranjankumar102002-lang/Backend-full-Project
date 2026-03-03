@@ -2,7 +2,7 @@
   "name": "banckend_project",
   "version": "1.0.0",
   "description": "a banckend at fully banckend project and fronted project",
-  "type": "commonjs",
+  "type": "module",
   "keywords": [
     "javascript",
     "backend",
@@ -10,15 +10,23 @@
   ],
   "license": "ISC",
   "author": "rajeev ranja kumar",
-  "main": "index.js",
+  "main": "./src/utils/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
   },
   "dependencies": {
+    "cookie-parse": "^0.4.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "es": "^0.8.0",
+    "express": "^5.2.1",
+    "modules": "^0.4.0",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.2.3",
     "prettier": "^3.8.1"
   }
 }
